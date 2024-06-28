@@ -1,0 +1,41 @@
+.info_conatiner {
+    height: 50rem;
+    /* background-image: url(https://www.swiggy.com/about-us/wp-content/uploads/2024/04/DE-on-bike-2-2.png); */
+    background: rgb(252, 87, 5);
+    word-wrap: break-word;
+    
+}
+.info_tittle_1 {
+    position: absolute;
+    top: 40%;
+    color: white;
+    font-size: 5rem;
+    left: 33.5%;
+    font-family: "Playwrite NZ", cursive;
+}
+.info_tittle_2 {
+    position: absolute;
+    top: 58%;
+    color: white;
+    font-size: 4.5rem;
+    left: 50%;
+    font-family: "Playwrite NZ", cursive;
+}
+.info_tittle_3 {
+    /* position: absolute; */
+    top: 80%;
+    /* color: white; */
+    font-size: 2rem;
+    /* left: 5%; */
+    background: rgb(252, 87, 5);
+    height: auto;
+    padding: 26% 5% 5% 5%;
+    /* font-family: "Playwrite NZ", cursive; */
+}
+.info_about {
+    position: absolute;
+    top: 75%;
+    /* color: white; */
+    font-size: 3rem;
+    left: 5%;
+}

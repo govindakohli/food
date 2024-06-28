@@ -1,0 +1,29 @@
+.Footer {
+    height: auto;
+    width: 100%;
+    /* background: #000; */
+    border-top: 2px solid black;
+}
+
+#owner {
+    color: black;
+    text-align: center;
+    padding: 2rem;
+}
+.footer_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 2rem 5rem;
+    /* gap: 2rem; */
+} 
+.company_details h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.company_details li {
+    list-style-type:none ;
+    margin-bottom: .5rem;
+}

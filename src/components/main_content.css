@@ -1,0 +1,12 @@
+
+.container {
+    height: 18rem;
+    width: 16rem;
+    /* border: 2px solid green; */
+    margin: 1rem 0rem;
+}
+img {
+    height: 10rem;
+    width: 16rem;
+    border-radius: 1rem;
+}

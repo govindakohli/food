@@ -1,0 +1,16 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    /* background: rgb(10, 10, 10);
+    color: white; */
+
+}
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    /* gap: .5rem; */
+    justify-content: space-around;
+    margin: 0rem 12rem;
+    /* background: grey; */
+}
