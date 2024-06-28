@@ -1,3 +1,4 @@
+![Screenshot 2024-06-28 114326](https://github.com/govindakohli/Fireup_thegrill/assets/162539058/a237c428-b2f8-4798-8f94-ba39d333f5be)
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
