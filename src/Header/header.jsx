@@ -62,7 +62,7 @@ const Header = () => {
                 return { color: isActive ? "rgb(252, 87, 5)" : "" };
               }}
             >
-              <i class="fa-regular fa-user"></i>SignIn
+              <i class="fa-regular fa-user"></i>Login
             </NavLink>
             <NavLink
               to="/cart"

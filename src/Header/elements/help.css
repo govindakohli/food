@@ -1,0 +1,66 @@
+.main {
+    height: 85rem;
+    /* background: white; */
+    background-image: url('http://www.textures4photoshop.com/tex/thumbs/food-menu-background-with-blackboard-texture-1451.jpg');
+    background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center;
+    padding: 20px;
+    color: black;
+}
+.help_section {
+    padding: 50px 0;
+    /* background-color: #fff; */
+    text-align: center;
+    color: white;
+}
+.help_container {
+    width: 80%;
+    margin: auto;
+   background: rgba(16, 15, 15, 0.715);
+    height: 78rem;
+    border-radius: 1rem;
+    padding: 1rem;
+    /* overflow: hidden; */
+    /* padding-bottom: 5rem; */
+}
+.unique {
+    padding-bottom: 5rem;
+    font-size: 1rem;
+    color: white;
+}
+.help_heading {
+    color: white;
+    font-size: 2.5rem;
+}
+
+.help_para {
+    color: white;
+    line-height: 2;
+    font-size: 1.2rem;
+}
+.faq {
+    text-align: left;
+}
+
+
+.faq-item {
+    margin-bottom: 20px;
+}
+
+.faq-item h3 {
+    color: #ff6347;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.help_support li {
+    background: #ff6347;
+    color: white;
+    padding: 10px;
+    margin: 15px 0;
+    border-radius: 5px;
+}

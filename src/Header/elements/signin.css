@@ -1,0 +1,84 @@
+#main-content {
+    /* padding: 20px; */
+    height: 40rem;
+}
+
+#login-section {
+    padding: 50px 0;
+    background-image: url('https://wallpaperaccess.com/full/4117465.jpg');/* background-color: #fff; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    height: 40rem;
+}
+
+#login-container {
+    width: 40%;
+    margin: auto;
+    overflow: hidden;
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: 30rem;
+    /* background: rgba(255, 255, 255, 0.286); */
+    background: rgba(16, 15, 15, 0.715);
+    /* margin-bottom: 2rem; */
+
+}
+
+#login-title {
+    color: white;
+    margin-bottom: 50px;
+    font-size: 2.5rem;
+}
+
+.form-group {
+    margin-bottom: 25px;
+    text-align: left;
+    margin-top: 25px;
+}
+
+#email-label, #password-label {
+    display: block;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.form-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+#login-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#login-button:hover {
+    background-color: #ff4500;
+}
+
+#signup-text {
+    margin-top: 20px;
+    color: white;
+}
+
+#signup-link {
+    color: #ff6347;
+    text-decoration: none;
+}
+
+#signup-link:hover {
+    text-decoration: underline;
+}

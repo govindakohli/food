@@ -1,14 +1,21 @@
 .info_conatiner {
-    height: 50rem;
+    height: 53.5rem;
     /* background-image: url(https://www.swiggy.com/about-us/wp-content/uploads/2024/04/DE-on-bike-2-2.png); */
-    background: rgb(252, 87, 5);
+    /* background: rgb(252, 87, 5); */
+    background-image: url('https://twincitieskidsclub.com/wp-content/uploads/2020/01/AdobeStock_279757406-scaled.jpeg');
+    background-repeat: no-repeat;
+   background-size: cover;
+   /* height: 30rem; */
+   padding: 40px 35px;
+   background-position: center center;
+    text-align: left;
     word-wrap: break-word;
     
 }
 .info_tittle_1 {
     position: absolute;
     top: 40%;
-    color: white;
+    color:  rgb(252, 87, 5);;
     font-size: 5rem;
     left: 33.5%;
     font-family: "Playwrite NZ", cursive;
@@ -16,7 +23,7 @@
 .info_tittle_2 {
     position: absolute;
     top: 58%;
-    color: white;
+    color:  rgb(252, 87, 5);
     font-size: 4.5rem;
     left: 50%;
     font-family: "Playwrite NZ", cursive;
@@ -24,18 +31,20 @@
 .info_tittle_3 {
     /* position: absolute; */
     top: 80%;
-    /* color: white; */
+    color: white;
     font-size: 2rem;
     /* left: 5%; */
-    background: rgb(252, 87, 5);
+    background: rgba(16, 15, 15, 0.715);
     height: auto;
+    border-radius: 2rem;
     padding: 26% 5% 5% 5%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     /* font-family: "Playwrite NZ", cursive; */
 }
 .info_about {
     position: absolute;
     top: 75%;
-    /* color: white; */
+    color: white;
     font-size: 3rem;
     left: 5%;
 }

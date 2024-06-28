@@ -8,7 +8,7 @@ const Search = () => {
             Fire Up
         </h2>
         <h3 className="tittle_2">
-            The Grill...
+            & The Grill...
         </h3>
         <section className="search">
            <input id='Sesrch_bar' type="text" placeholder='Search your item' /> 

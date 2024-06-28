@@ -1,0 +1,102 @@
+#main-cart {
+     /* background-image: url('http://www.textures4photoshop.com/tex/thumbs/food-menu-background-with-blackboard-texture-1451.jpg');
+    background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center; */
+   
+}
+
+#cart-section {
+    padding: 50px 0;
+    background-image: url('https://twincitieskidsclub.com/wp-content/uploads/2020/01/AdobeStock_279757406-scaled.jpeg');
+    background-repeat: no-repeat;
+   background-size: cover;
+   height: 30rem;
+   background-position: center center;
+    text-align: center;
+}
+
+#cart-container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 10px;
+    /* background: rgba(255, 255, 255, 0.634); */
+    background: rgba(16, 15, 15, 0.715);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#cart-title {
+    color: white;
+    margin-bottom: 20px;
+}
+
+#cart-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.table-header {
+    background-color: #ff6347;
+    color: white;
+    padding: 10px;
+}
+
+.table-data {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+#cart-summary {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+#total-label {
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+}
+
+#total-amount {
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    font-weight: bolder;
+}
+
+#checkout-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#checkout-button:hover {
+    background-color: #ff4500;
+}
+
+.remove-button {
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.remove-button:hover {
+    background-color: #ff4500;
+}
+#cart-items tr td {
+    color: white;
+}
