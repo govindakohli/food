@@ -1,21 +1,22 @@
 import React from "react";
 import "../components/filter_area.css";
+
 const FilterArea = () => {
   return (
     <div>
       <section className="filter_area">
         <h1 id="heading">
-          Restaurants with online food delivery in Chandigarh
+          Restaurants with online food delivery in Tricity
         </h1>
         <span className="filters">
           <div className="filter">
             <p>
-              filter<i class="fa-solid fa-arrow-right-arrow-left"></i>
+              Filter<i className="fa-solid fa-arrow-right-arrow-left"></i>
             </p>
           </div>
           <div className="filter">
             <p>
-              Sort<i class="fa-solid fa-angle-down"></i>
+              Sort<i className="fa-solid fa-angle-down"></i>
             </p>
           </div>
           <div className="filter">
@@ -31,7 +32,7 @@ const FilterArea = () => {
             <p>Rs. 300-Rs. 600</p>
           </div>
           <div className="filter">
-            <p>Less than Rs. 300 </p>
+            <p>Less than Rs. 300</p>
           </div>
         </span>
       </section>

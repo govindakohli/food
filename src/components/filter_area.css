@@ -1,31 +1,69 @@
-/* filter  */
 #heading {
-    /* margin-top: 1rem; */
-    margin-left: 12rem;
-    margin-bottom: 1rem;
-    padding: 0rem 1rem 1rem 1rem;
-  }
-  .filter_area {
-    /* background: rgba(224, 223, 223, 0.805); */
-    height: auto;
-    margin-top: 1rem;
+  margin: 1rem 12rem;
+  padding: 0 1rem 1rem 1rem;
+  text-align: left;
+  font-size: 3rem;
+}
+
+.filter_area {
+  height: auto;
+  margin-top: 1rem;
+}
+
+.filters {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin: 0 12rem;
+  padding: 0 1rem 1rem 1rem;
+}
+
+.filters i {
+  margin-left: 5px;
+}
+
+.filter {
+  border-radius: 15px;
+  word-wrap: break-word;
+  padding: 0.5rem;
+  background: rgba(224, 223, 223, 0.805);
+}
+
+@media (max-width: 1085px) {
+  #heading {
+      margin: 1rem 8rem;
+      font-size: 2.8rem;
   }
   .filters {
-    display: flex;
-    align-items: center;
-    justify-content: start;
-    gap: 1rem;
-    flex-wrap: wrap;
-    margin-left: 12rem;
-    padding: 0rem 1rem 1rem 1rem;
+      margin: 0 8rem;
   }
-  .filters i {
-    margin-left: 5px;
+}
+
+@media (max-width: 767px) {
+  #heading {
+      margin: 1rem 4rem;
+      font-size: 2.5rem;
+  }
+  .filters {
+      margin: 0 4rem;
+      justify-content: center;
+  }
+}
+
+@media (max-width: 395px) {
+  #heading {
+      margin: 1rem 1rem;
+      font-size: 2rem;
+
+  }
+  .filters {
+      margin: 0 1rem;
+      justify-content: center;
   }
   .filter {
-    /* border: 2px solid black; */
-    border-radius: 15px;
-    word-wrap: break-word;
-    padding: 0.5rem;
-    background: rgba(224, 223, 223, 0.805);
+      font-size: 0.9rem;
+      padding: 0.3rem;
   }
+}

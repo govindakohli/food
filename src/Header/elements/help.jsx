@@ -1,5 +1,5 @@
 import React from 'react';
-import '../elements/help.css'
+import '../elements/help.css';
 
 const Help = () => {
     return (
@@ -11,8 +11,6 @@ const Help = () => {
                 <p className='unique'>Welcome to the Fireup the Grill Help page. Here you will find answers to our most frequently asked questions. If you need further assistance, please do not hesitate to contact us.</p>
                 
                 <div className="faq">
-                    {/* <h2>Frequently Asked Questions</h2> */}
-                    
                     <div className="faq-item">
                         <h3 className='help_heading'>How do I place an order?</h3>
                         <p className='help_para'>To place an order, browse our menu, add items to your cart, and proceed to checkout. Follow the on-screen instructions to complete your order.</p>

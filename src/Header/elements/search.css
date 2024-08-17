@@ -1,61 +1,91 @@
-.search {
-   height: 31rem;
-   background: transparent;
-   /* margin: 0rem 15rem; */
-   display: flex;
-   /* justify-content: none; */
-   /* gap: 0rem; */
-   align-items: top;
-   /* margin-top: 1rem; */
-   background-image: url("https://wallpapercave.com/wp/wp7845891.jpg");
-   background-repeat: no-repeat;
-   background-size: cover;
-   background-position: center center;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-#Sesrch_bar{
+
+.search {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://wallpapercave.com/wp/wp7845891.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    /* border-bottom-right-radius: 15% ; */
+    /* border-top-left-radius: 15%; */
+}
+
+#search_bar {
     height: 3.5rem;
-    width: 70% ;
-    margin: 0rem 15rem;
+    width: 70%;
     background: black;
     color: white;
     border: 2px solid black;
-    border-right: none;
+
     padding-left: 2rem;
     cursor: pointer;
-    position: relative;
-    top: 20rem;
+
     border-radius: 10px;
+    margin-top: 1rem;
 }
-#Sesrch_bar:hover {
-    /* border: 2px solid rgb(252, 87, 5); */
-    
-}
-#Sesrch_bar::placeholder {
+#search_bar::placeholder {
     color: white;
     font-size: 1rem;
 }
-#Sesrch_bar::placeholder:hover{
-    
+#search_bar:hover::placeholder {
     font-size: 1.3rem;
 }
-#search_button i {
-    
-   font-size: 2rem;
-}
-.tittle {
-    position: absolute;
-    top: 40%;
+.title, .title_2 {
     color: white;
+    text-align: center;
+    font-family: "Playwrite NZ", cursive;
+}
+
+.title {
     font-size: 5rem;
-    left: 33.5%;
-    font-family: "Playwrite NZ", cursive;
+    margin-bottom: 0.5rem;
 }
-.tittle_2 {
-    position: absolute;
-    top: 58%;
-    color: white;
+
+.title_2 {
     font-size: 4.5rem;
-    left: 49%;
-    font-family: "Playwrite NZ", cursive;
-    
+    /* margin-bottom: 1.5rem; */
+}
+
+@media (max-width: 1085px) {
+    .title {
+        font-size: 4rem;
+    }
+    .title_2 {
+        font-size: 3.5rem;
+    }
+    #search_bar {
+        width: 80%;
+    }
+}
+
+@media (max-width: 767px) {
+    .title {
+        font-size: 3rem;
+    }
+    .title_2 {
+        font-size: 2.5rem;
+    }
+    #search_bar {
+        width: 90%;
+    }
+}
+
+@media (max-width: 395px) {
+    .title {
+        font-size: 2rem;
+    }
+    .title_2 {
+        font-size: 1.5rem;
+    }
+    #search_bar {
+        width: 95%;
+    }
 }

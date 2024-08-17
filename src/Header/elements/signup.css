@@ -5,7 +5,7 @@
     height: 100vh; /* Full viewport height */
 }
 
-#login-section {
+#signup-section {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -19,17 +19,17 @@
     padding: 20px; /* Added padding */
 }
 
-#login-container {
-    height: auto;
+#signup-container {
     background: rgba(16, 15, 15, 0.715);
     width: 100%;
+    height: auto;
     max-width: 400px; /* Set a max-width for better responsiveness */
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-#login-title {
+#signup-title {
     color: white;
     margin-bottom: 30px;
     font-size: 2.5rem;
@@ -40,7 +40,7 @@
     text-align: left;
 }
 
-#email-label, #password-label {
+#name-label, #email-label, #password-label {
     display: block;
     color: white;
     margin-bottom: 5px;
@@ -54,7 +54,7 @@
     margin-bottom: 15px;
 }
 
-#login-button {
+#signup-button {
     width: 100%;
     padding: 10px;
     background-color: #ff6347;
@@ -63,14 +63,13 @@
     border-radius: 5px;
     font-size: 16px;
     cursor: pointer;
-    margin-top: 2rem;
 }
 
-#login-button:hover {
+#signup-button:hover {
     background-color: #ff4500;
 }
 
-#signup-text {
+#login-text {
     margin-top: 20px;
     color: white;
 }
@@ -85,21 +84,21 @@
 }
 
 @media screen and (max-width: 768px) {
-    #login-container {
+    #signup-container {
         width: 80%;
     }
 
-    #login-title {
+    #signup-title {
         font-size: 2rem;
     }
 }
 
 @media screen and (max-width: 480px) {
-    #login-container {
+    #signup-container {
         width: 90%;
     }
 
-    #login-title {
+    #signup-title {
         font-size: 1.5rem;
     }
 
@@ -111,12 +110,12 @@
         padding: 8px;
     }
 
-    #login-button {
+    #signup-button {
         padding: 8px;
         font-size: 14px;
     }
 
-    #signup-text {
+    #login-text {
         font-size: 0.9rem;
     }
 }

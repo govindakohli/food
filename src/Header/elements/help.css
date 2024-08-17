@@ -1,34 +1,36 @@
 .main {
-    height: 85rem;
-    /* background: white; */
+    height: auto;
     background-image: url('http://www.textures4photoshop.com/tex/thumbs/food-menu-background-with-blackboard-texture-1451.jpg');
     background-repeat: no-repeat;
-   background-size: cover;
-   background-position: center center;
+    background-size: cover;
+    background-position: center center;
+    /* border-top-left-radius: 10% ; */
     padding: 20px;
     color: black;
 }
+
 .help_section {
     padding: 50px 0;
-    /* background-color: #fff; */
     text-align: center;
     color: white;
 }
+
 .help_container {
     width: 80%;
+    max-width: 1200px;
     margin: auto;
-   background: rgba(16, 15, 15, 0.715);
-    height: 78rem;
+    background: rgba(16, 15, 15, 0.715);
     border-radius: 1rem;
-    padding: 1rem;
-    /* overflow: hidden; */
-    /* padding-bottom: 5rem; */
+    padding: 2rem;
+    box-sizing: border-box;
 }
+
 .unique {
-    padding-bottom: 5rem;
+    padding-bottom: 1rem;
     font-size: 1rem;
     color: white;
 }
+
 .help_heading {
     color: white;
     font-size: 2.5rem;
@@ -36,20 +38,23 @@
 
 .help_para {
     color: white;
-    line-height: 2;
+    line-height: 1.6;
     font-size: 1.2rem;
+    margin-bottom: 1rem;
 }
+
 .faq {
     text-align: left;
+    margin-bottom: 2rem;
 }
 
-
 .faq-item {
-    margin-bottom: 20px;
+    margin-bottom: 1.5rem;
 }
 
 .faq-item h3 {
     color: #ff6347;
+    font-size: 1.5rem;
 }
 
 ul {
@@ -63,4 +68,38 @@ ul {
     padding: 10px;
     margin: 15px 0;
     border-radius: 5px;
+}
+
+@media screen and (max-width: 768px) {
+    .help_container {
+        width: 90%;
+        padding: 1rem;
+    }
+    
+    .help_heading {
+        font-size: 2rem;
+    }
+
+    .help_para, .faq-item h3 {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .help_container {
+        width: 95%;
+        padding: 0.5rem;
+    }
+    
+    .help_heading {
+        font-size: 1.5rem;
+    }
+
+    .help_para, .faq-item h3 {
+        font-size: 0.9rem;
+    }
+
+    .help_support li {
+        font-size: 0.9rem;
+    }
 }

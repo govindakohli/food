@@ -9,7 +9,7 @@ const Cart = () => {
             <h1 id="cart-title">Your Cart</h1>
             <table id="cart-table">
               <thead>
-                <tr>
+                <tr className="table-row">
                   <th class="table-header">Item</th>
                   <th class="table-header">Quantity</th>
                   <th class="table-header">Price</th>

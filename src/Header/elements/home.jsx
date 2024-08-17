@@ -8,9 +8,16 @@ const Home = () => {
         <>
         <section className='main_container'>
            {
-          data.map((value)=>{
-               console.log(value.name)
-             return <MainContent src={value.src} item_name={value.item_name} star={value.star} del_time={value.del_time} rest_name={value.rest_name} rest_add={value.rest_add}  />
+          data.map((value, index) => {
+             return <MainContent 
+                        key={index}
+                        src={value.src} 
+                        item_name={value.item_name} 
+                        star={value.star} 
+                        del_time={value.del_time} 
+                        rest_name={value.rest_name} 
+                        rest_add={value.rest_add}  
+                    />
           })
         }
         </section>
@@ -19,5 +26,3 @@ const Home = () => {
 }
 
 export default Home;
-
-

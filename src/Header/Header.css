@@ -2,65 +2,95 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
- 
 }
+
 #logo {
-  height: 10rem;
-  width: 20rem;
+  height: 8rem;
+  width: auto;
+  margin-left: 3rem;
 }
-.nav_bar {
+
+.Navbar {
   display: flex;
-  align-items: center;
   justify-content: space-between;
-  flex-wrap: nowrap;
-  border-bottom: 2px solid black;
-}
-.logo {
-  display: flex;
   align-items: center;
-  justify-content: space-between;
-  margin: 1rem;
-  margin-left: 9rem;
-}
-.logo a {
+  padding: 0 20px;
+  background: white;
   color: black;
-  font-size: 0.8rem;
-  font-weight: bold;
-  /* border-bottom: 2px solid black; */
-  padding-bottom: 3px;
-  /* margin-bottom: 0.8rem; */
-  text-decoration: none;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
-.logo i {
-  margin: 1rem;
-  color: orange;
+
+.nav_links {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+}
+
+.nav-texts {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  padding: 10px 20px;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.Mobile-menu-icon {
+  display: none;
+  background: none;
   border: none;
+  font-size: 30px;
+  cursor: pointer;
 }
 
-.nav_text {
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  /* gap: 3.5rem; */
-  flex-wrap: nowrap;
-  margin-right: 9rem;
-}
-.nav_text a {
-  color: black;
-  font-size: 1rem;
-  text-decoration: none;
-  margin-right: 1.5rem;
-}
-.nav_text a:hover {
-  color: rgb(252, 87, 5);
+@media (max-width: 1085px) {
+  .nav_links {
+    display: none;
+  }
+  .nav-links-mobile {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    list-style: none;
+    position: absolute;
+    top: 110px;
+    left: 0;
+    width: 100%;
+    background: rgb(255, 255, 255);
+    padding: 20px;
+    border-top: 1px solid #ccc;
+  }
+  .nav-texts {
+    padding: 10px;
+    margin: 10px 0;
+  }
+  .Mobile-menu-icon {
+    display: block;
+  }
 }
 
-.nav_text a i {
-  margin: 1rem;
-  font-size: 1.5rem;
-}
-.nav_text a i:hover {
-  color: rgb(252, 87, 5);
+@media (max-width: 767px) {
+  #logo {
+    height: 4rem;
+  }
+  .nav-links-mobile {
+    top: 60px;
+  }
 }
 
-
+@media (max-width: 395px) {
+  .Navbar {
+    padding: 0 10px;
+  }
+  #logo {
+    height: 3rem;
+  }
+  .nav-links-mobile {
+    top: 50px;
+  }
+  .nav-texts {
+    font-size: 18px;
+  }
+}
