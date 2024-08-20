@@ -2,6 +2,7 @@ import React from "react";
 import "./Header.css";
 import { NavLink } from "react-router-dom";
 import { useState } from "react";
+import logo from "./logo.jpg"
 
 const Header = () => {
   const [isMobile, setIsMobile] = useState(false);
@@ -9,7 +10,7 @@ const Header = () => {
     <nav className="Navbar">
       <NavLink to="/" className="logo">
         <img
-          src="https://mir-s3-cdn-cf.behance.net/project_modules/2800_opt_1/aad4d0110142211.5fe4b63868daa.jpg"
+          src={logo}
           id="logo"
           alt="Logo"
         />
