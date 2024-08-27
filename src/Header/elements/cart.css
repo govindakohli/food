@@ -1,13 +1,11 @@
-
 #cart-section {
     padding: 50px 0;
     background-image: url('https://twincitieskidsclub.com/wp-content/uploads/2020/01/AdobeStock_279757406-scaled.jpeg');
     background-repeat: no-repeat;
-   background-size: cover;
-   height: auto;
-   background-position: center center;
+    background-size: cover;
+    height: auto;
+    background-position: center center;
     text-align: center;
-
 }
 
 #cart-container {
@@ -18,7 +16,6 @@
     border: 1px solid black;
     padding: 20px;
     border-radius: 10px;
-    /* background: rgba(255, 255, 255, 0.634); */
     background: rgba(16, 15, 15, 0.715);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -50,20 +47,55 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
+    padding: 0 1rem;
+    align-items: center; /* Ensure items are aligned vertically */
 }
 
-/* #total-label {
+#total-label, #total-amount {
     font-size: 22px;
-    font-weight: bold;
-    color: white;
-} */
-
-#total-label , #total-amount {
-    font-size: 22px;
-    font-weight: bold;
-    color: white;
     font-weight: bolder;
-    padding: 0 5rem 0 5rem;
+    color: white;
+}
+
+/* Adjustments for smaller screens */
+@media (max-width: 768px) {
+    #cart-container {
+        width: 90%;
+    }
+
+    #cart-summary {
+        flex-direction: row;
+        align-items: flex-start; /* Align items to the start of the container */
+    }
+
+    #total-label, #total-amount {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 470px) {
+    .table-header {
+        padding: 5px;
+        font-size: 0.75rem;
+    }
+
+    .table-row {
+        margin: 0.75rem;
+    }
+
+    #cart-items tr td {
+        font-size: 0.75rem;
+    }
+
+    #cart-summary {
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 10px; /* Add some spacing between the total label and amount */
+    }
+
+    #total-label, #total-amount {
+        font-size: 16px;
+    }
 }
 
 #checkout-button {
@@ -72,7 +104,6 @@
     background-color: #ff6347;
     color: white;
     border: none;
-    
     border-radius: 5px;
     font-size: 16px;
     cursor: pointer;
@@ -93,41 +124,22 @@
 .remove-button:hover {
     background-color: #ff4500;
 }
+
 #cart-items tr td {
     color: white;
 }
-.itemsName{
+
+.itemsName {
     text-align: start;
 }
+
 .remove-btn {
     background: none;
     color: #ff4500;
     border: none;
     font-size: 1rem;
 }
-.remove-btn:active{
+
+.remove-btn:active {
     font-size: 1.2rem;
-
-}
-
-@media (max-width: 470px) {
-    .table-header {
-        background-color: #ff6347;
-        color: white;
-        padding: 5px;
-        font-size: 0.75rem;
-    }
-    .table-row {
-        margin: 0.75rem;
-    }
-    #cart-items tr td {
-        color: white;
-        font-size: 0.75rem;
-    }
-    #total-label ,#total-amount {
-        font-size: 18px;
-        font-weight: bold;
-        color: white;
-        font-weight: bolder;
-    }
 }
