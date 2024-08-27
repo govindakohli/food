@@ -57,6 +57,16 @@
   font-weight: bolder;
   color: white;
 }
+#checkout-button {
+    width: 70%;
+    padding: 12px;
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+  }
 
 /* Adjustments for smaller screens */
 @media (max-width: 768px) {
@@ -102,13 +112,13 @@
 }
 
 #checkout-button {
-  width: 100%;
-  padding: 10px;
+  width: 70%;
+  padding: 8px;
   background-color: #ff6347;
   color: white;
   border: none;
   border-radius: 5px;
-  font-size: 16px;
+  font-size: 13px;
   cursor: pointer;
 }
 
