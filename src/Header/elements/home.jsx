@@ -9,7 +9,8 @@ const Home = () => {
         <section className='main_container'>
            {
           data.map((value, index) => {
-             return <MainContent 
+             return <>
+             <MainContent 
                         key={index}
                         src={value.src} 
                         item_name={value.item_name} 
@@ -17,7 +18,9 @@ const Home = () => {
                         del_time={value.del_time} 
                         rest_name={value.rest_name} 
                         rest_add={value.rest_add}  
+                        price = {value.price}
                     />
+             </>
           })
         }
         </section>

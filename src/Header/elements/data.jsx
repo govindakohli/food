@@ -9,6 +9,7 @@ const Data = [
     del_time: "25-30",
     rest_name: "Panna Sweet",
     rest_add: "Sec-22 Chandigargh",
+    price:"250"
   },
   {
     id : "2",
@@ -18,6 +19,7 @@ const Data = [
     del_time: "60-65",
     rest_name: "Fast food",
     rest_add: "Sec-32 Chandigargh",
+    price:"100"
   },
   {
     id : "3",
@@ -27,6 +29,7 @@ const Data = [
     del_time: "50-60",
     rest_name: "Burger American ",
     rest_add: "Sec-20 Chandigarh",
+    price:"150"
   },
   {
     id : "4",
@@ -36,6 +39,7 @@ const Data = [
     del_time: "15-20",
     rest_name: "Kaala Dhaba",
     rest_add: "Manimajra Chandigargh",
+    price:"200"
   },
   {
     id : "5",
@@ -45,6 +49,7 @@ const Data = [
     del_time: "35-40",
     rest_name: "Panna Sweet",
     rest_add: "Manimajra Chandigargh",
+    price:"220"
   },
   {
     id : "6",
@@ -54,6 +59,7 @@ const Data = [
     del_time: "20-25",
     rest_name: "Shama Dhaba",
     rest_add: "Housing Board Chandigargh",
+    price:"400"
   },
   {
     id : "7",
@@ -63,6 +69,7 @@ const Data = [
     del_time: "15-30",
     rest_name: "Pizza Hut",
     rest_add: "Sec-21 Chandigargh",
+    price:"300"
   },
   {
     id : "8",
@@ -72,6 +79,7 @@ const Data = [
     del_time: "25-35",
     rest_name: "Fast food ",
     rest_add: "Sec-19 Chandigargh",
+    price:"200"
   },
   {
     id : "9",
@@ -81,6 +89,7 @@ const Data = [
     del_time: "10-20",
     rest_name: "Kaala Dhaba",
     rest_add: "Manimajra Chandigargh",
+    price:"180"
   },
   {
     id : "10",
@@ -90,6 +99,7 @@ const Data = [
     del_time: "25-30",
     rest_name: "Ikram Dhaba",
     rest_add: "Sec-28 Chandigargh",
+    price:"90"
   },
   {
     id : "11",
@@ -99,6 +109,7 @@ const Data = [
     del_time: "25-29",
     rest_name: "Panna Sweet",
     rest_add: "Sec-15 Chandigargh",
+    price:"190"
   },
   {
     id : "12",
@@ -108,6 +119,7 @@ const Data = [
     del_time: "20-35",
     rest_name: "South Indian Dhaba",
     rest_add: "Sec-20 Chandigargh",
+    price:"290"
   },
   {
     id : "13",
@@ -117,6 +129,7 @@ const Data = [
     del_time: "15-20",
     rest_name: "Burger King",
     rest_add: "Sec-28 Chandigargh",
+    price:"120"
   },
   {
     id : "14",
@@ -126,6 +139,7 @@ const Data = [
     del_time: "25-30",
     rest_name: "KFC",
     rest_add: "Sec-23 Chandigargh",
+    price:"240"
   },
   {
     id : "15",
@@ -135,6 +149,7 @@ const Data = [
     del_time: "25-35",
     rest_name: "Fast Food",
     rest_add: "Sec-17 Chandigargh",
+    price:"210"
   },
   {
     id : "16",
@@ -144,6 +159,7 @@ const Data = [
     del_time: "25-30",
     rest_name: "Panna Sweet",
     rest_add: "Sec-19 Chandigargh",
+    price:"260"
   },
   {
     id : "17",
@@ -153,6 +169,7 @@ const Data = [
     del_time: "20-25",
     rest_name: "Food Special",
     rest_add: "Sec-15 Chandigargh",
+    price:"80"
   },
   {
     id : "18",
@@ -162,6 +179,7 @@ const Data = [
     del_time: "25-30",
     rest_name: "Burger King",
     rest_add: "Sec-12 Chandigargh",
+    price:"70"
   },
   {
     id : "19",
@@ -171,6 +189,7 @@ const Data = [
     del_time: "20-25",
     rest_name: "La Pinzos",
     rest_add: "Sec-15 Chandigargh",
+    price:"290"
   },
   {
     id : "20",
@@ -180,6 +199,7 @@ const Data = [
     del_time: "25-30",
     rest_name: "Pizza Hut",
     rest_add: "Sec-10 Chandigargh",
+    price:"240"
   },
   {
     id : "21",
@@ -189,6 +209,7 @@ const Data = [
     del_time: "25-30",
     rest_name: "KFC",
     rest_add: "Sec-22 Chandigargh",
+    price:"990"
   },
   {
     id : "22",
@@ -198,6 +219,7 @@ const Data = [
     del_time: "25-35",
     rest_name: "Chicken Special",
     rest_add: "Sec-20 Chandigargh",
+    price:"590"
   },
   {
     id : "23",
@@ -207,6 +229,7 @@ const Data = [
     del_time: "25-30",
     rest_name: "Panna Sweet",
     rest_add: "Sec-22 Chandigargh",
+    price:"299"
   },
   {
     id : "24",
@@ -216,6 +239,7 @@ const Data = [
     del_time: "10-20",
     rest_name: "Kaala Dhaba",
     rest_add: "Manimajra Chandigargh",
+    price:"199"
   },
 ];
 export default Data;

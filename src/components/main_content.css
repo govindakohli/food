@@ -10,3 +10,24 @@ img {
     width: 16rem;
     border-radius: 1rem;
 }
+.addtoCart{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 0.5rem;
+    padding-top: 0.5rem;
+}
+.addtocart-btn{
+    color: white;
+    background: green;
+    padding: 0.3rem;
+    border: none;
+    border-radius: 0.3rem;
+}
+.addtocart-btn:active{
+    color: white;
+    border: 2px solid black;
+    background: rgb(2, 70, 2);
+    padding: 0.3rem;
+    border: none;
+    border-radius: 0.3rem;
+}

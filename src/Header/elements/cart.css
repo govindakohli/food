@@ -4,13 +4,15 @@
     background-image: url('https://twincitieskidsclub.com/wp-content/uploads/2020/01/AdobeStock_279757406-scaled.jpeg');
     background-repeat: no-repeat;
    background-size: cover;
-   height: 30rem;
+   height: auto;
    background-position: center center;
     text-align: center;
+
 }
 
 #cart-container {
     width: 80%;
+    height: auto;
     margin: auto;
     overflow: hidden;
     border: 1px solid black;
@@ -61,6 +63,7 @@
     font-weight: bold;
     color: white;
     font-weight: bolder;
+    padding: 0 5rem 0 5rem;
 }
 
 #checkout-button {
@@ -93,7 +96,19 @@
 #cart-items tr td {
     color: white;
 }
+.itemsName{
+    text-align: start;
+}
+.remove-btn {
+    background: none;
+    color: #ff4500;
+    border: none;
+    font-size: 1rem;
+}
+.remove-btn:active{
+    font-size: 1.2rem;
 
+}
 
 @media (max-width: 470px) {
     .table-header {
