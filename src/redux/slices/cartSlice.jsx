@@ -8,13 +8,9 @@ const cartSlice = createSlice({
             state.push(action.payload);
         },
         removeItem: (state, action) => {
-            // Removing an item by its index
             return state.filter((item, index) => index !== action.payload);
         },
-        // Alternatively, you can remove an item by a unique id
-        // removeItem: (state, action) => {
-        //     return state.filter(item => item.id !== action.payload);
-        // }
+       
     }
 });
 
